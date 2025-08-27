@@ -18,7 +18,9 @@ JAM_CONSTANTS=tiny $tsjam-target-binary
 
 ## Changelog
 
-....
+```
+jam-fuzzer-target-v0.7.0-proto0.7.0 fd1ec6cfa3086fe0a9df352af0f6087d125de3abaf98a949893e0912c888342b 
+```
 
 ## About the implementation
 
