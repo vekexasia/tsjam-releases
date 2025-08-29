@@ -8,25 +8,14 @@ This repository contains various versions of fuzzer target for tsjam.
 $tsjam-target-binary
 ```
 
+It is needed to have the `cwd` set at the same location as the binary as it would need to resolve some of the dependencies that are found within the tar.
+
 The target will automatically listen to `/tmp/jam_target.sock`. And it will run with the **full** chain spec. 
 
 To use it with the **tiny** spec an env variable called `JAM_CONSTANTS` must be set to `tiny`
 
 ```
 JAM_CONSTANTS=tiny $tsjam-target-binary
-```
-
-## Changelog
-
-
-```
-jam-fuzzer-target-v0.7.0.1-proto0.7.0 ffa3b3d808f693e84ab3e1a99b9fc029e1e4a720de3237474292b3e50b1d6179 
-Added --socket parameter to specify the socket file
-
-```
-
-```
-jam-fuzzer-target-v0.7.0-proto0.7.0 fd1ec6cfa3086fe0a9df352af0f6087d125de3abaf98a949893e0912c888342b 
 ```
 
 ## About the implementation
